@@ -8,7 +8,7 @@ import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
 
 import { AuthService } from '@core/services/auth.service';
 import { MessageInfo } from '@osf/features/auth/models';
-import { ResendConfirmationFormGroupType } from '@osf/features/auth/models/resend-confirmation';
+import { ResendConfirmationFormGroupType } from '@osf/features/auth/models/resend-confirmation.model';
 import { TextInputComponent } from '@osf/shared/components/text-input/text-input.component';
 import { InputLimits } from '@osf/shared/constants/input-limits.const';
 import { CustomValidators } from '@osf/shared/helpers/custom-form-validators.helper';
