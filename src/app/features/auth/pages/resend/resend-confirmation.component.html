@@ -22,9 +22,9 @@
   </section>
 
   <div class="my-4">
-    @if (message()) {
-      <p-message styleClass="w-full" [severity]="message()?.severity" closable="true" (onClose)="onCloseMessage()">
-        {{ message()!.content | translate }}
+    @if (message(); as msg) {
+      <p-message styleClass="w-full" [severity]="msg.severity" closable="true" (onClose)="onCloseMessage()">
+        {{ msg.content | translate }}
       </p-message>
     }
   </div>
